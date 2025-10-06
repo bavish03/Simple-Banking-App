@@ -81,9 +81,10 @@ public class SimpleBankingApp {
                 }
             } else {
                 System.out.println("Invalid input. Please enter a number.");
-                scanner.next(); // Consume invalid input
+                scanner.next();
             }
         }
         scanner.close();
     }
+
 }
